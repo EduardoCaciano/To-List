@@ -61,7 +61,7 @@ const clickItem = (evento) => {
         removerItem(indice);
     }else if (elemento.type == 'checkbox') {
         const indice = elemento.dataset.indice;
-        atualizaTela (indice);
+        atualizaItem (indice);
     }
 }
 
